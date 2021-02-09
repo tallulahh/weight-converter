@@ -1,0 +1,44 @@
+body {
+  background-color: #03011f;
+  font-family: "Source Sans Pro";
+  color: #6cacc5;
+  text-align: center;
+}
+
+.container {
+  margin: 100px 0;
+}
+
+input {
+  width: 50px;
+  font-size: 15px;
+  text-align: center;
+}
+
+select {
+  font-size: 15px;
+  padding: 2px;
+}
+
+button {
+  padding: 5px 10px;
+  font-weight: bold;
+  background:transparent;
+  border: 2px solid #6cacc5;
+  border-radius: 5px;
+  color: #6cacc5;
+  cursor:pointer;
+  user-select:none;
+  outline:none;
+}
+
+.results {
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid #6cacc5;
+  width: 200px;
+  padding: 5px;
+  background: rgba(42,50,113, .28);
+  margin: 50px auto;
+  display: none;
+}
